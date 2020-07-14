@@ -1,6 +1,10 @@
 # Pic Bay
 
-"Pic Bay" is ReactJS app, which uses pixbay API, and allows user to search for specific images, showing statistics: views, likes, downloads. Tailwind CSS helped me to make this app responsive really easy. Deployed with AWS, you can try it here:
+"Pic Bay" is ReactJS ⚛️ app, which uses pixbay API, and allows user to search for specific images. Show statistics: views, likes, downloads. Tailwind CSS helped me to make this app responsive for phone. Deployed with AWS.
+
+## Hosted here
+
+http://18.222.210.131/
 
 ## Run
 
