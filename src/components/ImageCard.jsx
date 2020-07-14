@@ -7,6 +7,7 @@ const ImageCard = ({ image }) => {
     <div className='max-w-sm rounded overflow-hidden shadow-lg'>
       <img src={image.webformatURL} alt='' className='w-full' />
       <div className='px-6 py-4'>
+        {/* <div className='px-6 py-4'> */}
         <div className='font-bold text-orange-500 text-xl mb-2'>
           Photo by {image.user}
         </div>
@@ -29,7 +30,7 @@ const ImageCard = ({ image }) => {
         {tags.map((tag, index) => (
           <span
             key={index}
-            className='inline-block bg-orange-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2'>
+            className='inline-block bg-orange-200 rounded-full px-3 py-1 text-xs font-semibold text-gray-700 mr-2 sm:text-xs'>
             #{tag}
           </span>
         ))}

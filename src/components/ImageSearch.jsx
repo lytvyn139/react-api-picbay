@@ -21,7 +21,7 @@ const ImageSearch = ({ searchText }) => {
           <button
             className='flex-shrink-0 bg-orange-500 hover:bg-orange-700 border-orange-500 hover:border-teal-700 text-sm border-4 text-white py-1 px-2 rounded'
             type='submit'>
-            Search
+            Find
           </button>
         </div>
       </form>
