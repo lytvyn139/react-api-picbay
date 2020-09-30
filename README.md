@@ -1,29 +1,32 @@
 # Pic Bay
 
-"Pic Bay" is ReactJS ⚛️ app, which uses pixbay API, and allows user to search for specific images. Show statistics: views, likes, downloads. Tailwind CSS helped me to make this app responsive for phone. Deployed with AWS.
+[Live here](https://picabay.netlify.app/) for an **unknown period** of time.
+"Pic Bay" is ReactJS responsive application, which uses pixbay API, and allows user to search for specific images. Show statistics: views, likes, downloads.
 
-## Hosted here
-
-http://18.222.210.131/
-
-## Run
-
-```
-npm i           #to download all dependencies
-npm start       #the server will open page automatically
-```
-
-## Technology used
+## Stack used
 
 - ReactJS
 - TailwindCSS
 - AWS
 - API calls
 
-## API pixabay.com
+## Installation
 
-Documentation can be found here: https://pixabay.com/api/docs/
+clone the project and run
+
+```cs
+npm i
+npm run
+```
+
+## Author
+
+IURII LYTVYN
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
 
 ## Screenshot
 
-![](./public/demo.png)
+![](public/demo.png)
